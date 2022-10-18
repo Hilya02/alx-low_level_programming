@@ -5,14 +5,7 @@
  */
 int main(void)
 {
-	char c[] = "_";
-	char c[] = "p";
-	char c[] = "u";
-	char c[] = "t";
-	char c[] = "c";
-	char c[] = "h";
-	char c[] = "a";
-	char c[] = "r";
+	char c[] = "_putchar";
 	int i;
 
 	for (i = 0; i < 9; i++)
