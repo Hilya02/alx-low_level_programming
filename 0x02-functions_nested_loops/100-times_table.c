@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
  * print_times_table - Entry point
  * @n: input
  * Return: Always 0
  */
+
 void print_times_table(int n)
 {
 	int num, mult, prod;
@@ -37,7 +37,7 @@ void print_times_table(int n)
 				{
 					_putchar((prod / 10) + '0');
 				}
-				_putchar((prod / 10) + '0');
+				_putchar((prod % 10) + '0');
 			}
 			_putchar('\n');
 		}
