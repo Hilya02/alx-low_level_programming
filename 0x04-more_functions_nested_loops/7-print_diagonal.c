@@ -1,4 +1,4 @@
-#include "mann.h"
+#include "main.h"
 
 /**
  * print_diagonal - printing lines diagonal
@@ -27,4 +27,3 @@ void print_diagonal(int n)
 			}
 	}
 }
-
