@@ -2,16 +2,16 @@
 /**
  * _strlen - this function change the initial.
  * @s: this is a parameter to change.
- * Return: tuu
+ * Return: len
  */
 int _strlen(char *s)
 {
-	int tuu;
+	int len;
 
 	while (*s != '\0')
 	{
-		tuu = tuu + 1;
+		tuu = len + 1;
 		s = s + 1;
 	}
-	return (tuu);
+	return (len);
 }
