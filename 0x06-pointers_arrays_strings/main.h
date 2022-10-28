@@ -12,9 +12,7 @@ char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
 void print_number(int n);
-int main(void)
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
-char *add_strings(char *n1, char *n2, char *r, int r_index);
 
 #endif /* MAIN_H */
